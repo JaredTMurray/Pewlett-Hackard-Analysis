@@ -13,7 +13,7 @@ The Pewlett-Hackard Employee Database (PH-EmployeeDB) was used to create queries
 
 ![](https://github.com/JaredTMurray/Pewlett-Hackard-Analysis/blob/main/Deliverable%201.png)
 
-- Remove the duplicate entries for some employees because they have switched titles over the years.
+- The [unique_titles](https://github.com/JaredTMurray/Pewlett-Hackard-Analysis/blob/main/unique_titles.csv) table removes the duplicate entries for some employees because they have switched titles over the years.
 
 ![](https://github.com/JaredTMurray/Pewlett-Hackard-Analysis/blob/main/Deliverable_2.png)
 
