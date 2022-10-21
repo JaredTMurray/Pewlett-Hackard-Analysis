@@ -1,10 +1,11 @@
 # Pewlett-Hackard-Analysis
-## Module 7
-The analysis should contain the following:
+## Module 7 Challenge 
+
 ## Overview of the analysis: 
-Explain the purpose of this analysis.
+The purpose of this analysis was done to:
 - Determine the number of retiring employees per title, and 
 - Identify employees who are eligible to participate in a mentorship program.
+The Pewlett-Hackard Employee Database (PH-EmployeeDB) was used to create queries, tables and CSV files of the resulting information.  
 ### Results: 
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 ### Summary: 
