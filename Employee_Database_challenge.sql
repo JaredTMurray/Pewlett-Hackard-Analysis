@@ -11,7 +11,7 @@ SELECT * FROM retirement_titles
 -- Export retirement_titles table to csv file
 COPY retirement_titles TO 'C:\Users\Jared\Module 7\retirement_titles.csv'  WITH DELIMITER ',' CSV HEADER;
 
--- Deliverable 2
+-- Deliverable 1.2
 -- Use Dictinct with Orderby to remove duplicate rows and place in the unique_title table
 SELECT DISTINCT ON (emp_no) emp_no, 
 first_name,
@@ -26,7 +26,7 @@ SELECT * FROM unique_titles;
 -- Export unique_titles table to csv file
 COPY unique_titles TO 'C:\Users\Jared\Module 7\unique_titles.csv'  WITH DELIMITER ',' CSV HEADER;
 
--- Deliverable 3
+-- Deliverable 1.3
 -- Use COUNT and GROUP BY 
 SELECT title, COUNT (*) as count
 INTO retiring_titles
@@ -37,3 +37,16 @@ ORDER BY count DESC;
 SELECT * FROM retiring_titles;
 -- Export retiring_titles table to csv file
 COPY retiring_titles TO 'C:\Users\Jared\Module 7\retiring_titles.csv'  WITH DELIMITER ',' CSV HEADER;
+
+-- Deliverable 2: The Employees Eligible for the Mentorship Program
+SELECT DISTINCT ON (em.emp_no)em.emp_no, em.first_name, em.last_name, em.birth_date, dem.from_date, dem.to_date, ti.title
+INTO mentorship_eligibility
+FROM employees as em
+INNER JOIN dept_employees as dem ON dem.emp_no = em.emp_no
+INNER JOIN titles as ti ON ti.emp_no = em.emp_no
+WHERE (em.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY em.emp_no ASC;
+-- Show the mentorship_eligibilty table output
+SELECT * FROM mentorship_eligibility;
+-- Export mentorship_eligibility table to csv file
+COPY mentorship_eligibility TO 'C:\Users\Jared\Module 7\mentorship_eligibility.csv'  WITH DELIMITER ',' CSV HEADER;
