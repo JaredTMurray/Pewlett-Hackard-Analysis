@@ -3,6 +3,8 @@
 The analysis should contain the following:
 ## Overview of the analysis: 
 Explain the purpose of this analysis.
+-Determine the number of retiring employees per title, and 
+- Identify employees who are eligible to participate in a mentorship program.
 ### Results: 
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 ### Summary: 
