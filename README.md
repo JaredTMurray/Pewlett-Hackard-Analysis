@@ -26,6 +26,5 @@ The Pewlett-Hackard Employee Database (PH-EmployeeDB) was used to create queries
 ![](https://github.com/JaredTMurray/Pewlett-Hackard-Analysis/blob/main/Deliverable%204.png)
 
 ### Summary: 
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
+In conclusion, 25916 senior engineers and 24926 senior staff are leaving and their posts would be vacant. In the mentorship program there were 1941 staff who qualify. This means that there would be a shortage of senior engineers and senior staff. There would not be enough qualified engineers and senior staff to perform continuous work. Hence, it is recommended that Human Resources enroles new staff for positions that need to be filled. 
