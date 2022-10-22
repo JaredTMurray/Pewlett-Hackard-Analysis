@@ -17,11 +17,11 @@ The Pewlett-Hackard Employee Database (PH-EmployeeDB) was used to create queries
 
 ![](https://github.com/JaredTMurray/Pewlett-Hackard-Analysis/blob/main/Deliverable_2.png)
 
-- Count and retrieve the number of employees by their most recent job title who are about to retire.
+- The [retiring_titles](https://github.com/JaredTMurray/Pewlett-Hackard-Analysis/blob/main/retiring_titles.csv) table counts and retrieves the number of employees by their most recent job title who are about to retire.
 
 ![](https://github.com/JaredTMurray/Pewlett-Hackard-Analysis/blob/main/Deliverable%203.png)
 
-- Create a list of employees who are eligibie for mentorship program that  were born between January 1, 1965 and December 31, 1965. 
+- The mentorship program lists all employees who are eligibie for mentorship program that have been born between January 1, 1965 and December 31, 1965. The [mentorship_eligibilty](https://github.com/JaredTMurray/Pewlett-Hackard-Analysis/blob/main/mentorship_eligibility.csv) table shows 1941 employees who are eligible. 
 
 ![](https://github.com/JaredTMurray/Pewlett-Hackard-Analysis/blob/main/Deliverable%204.png)
 
